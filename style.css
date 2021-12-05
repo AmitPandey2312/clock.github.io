@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+#clock
+{   
+    position: relative;
+    margin: 3vh auto;
+    height:40vw;
+    width: 40vw;
+    background-image: url(clock2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#hour,#min,#sec
+{
+    position: absolute;
+    left: 48.9%;
+    background-color: black;
+    border-radius: 50%;
+    transform-origin: bottom;
+}
+#hour
+{
+    height: 34%;
+    width: 2%;
+    top: 15%;
+}
+#min
+{
+    height: 38%;
+    width: 2%;
+    top: 11%;
+    
+}
+#sec
+{
+    height: 36%;
+    width: 2%;
+    top: 13%;
+   
+}
+#btn
+{
+    background-color: wheat;
+    margin: 5% auto 5% 48%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid darkblue;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.both
+{
+    display: block;
+}
+#HE
+{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 5%;
+    color: black;
+    font-weight: bolder;
+}
+#container
+{   
+    width: 50vw;
+    height: 25vw;
+    margin: 3vh auto;
+    position: relative;
+    background-color: wheat;
+    box-shadow: 10px 5px 5px rgb(129, 63, 63);
+    display: none;
+}
+#hrs
+{
+    position: relative;
+    width: 40vw;
+    height: 15vw;
+    left: 9.4%;
+    top:19%; 
+    background-color: #dddddd;
+     padding-top: 2vw;
+     padding-left: 2vw;
+    box-shadow: 10px 5px 5px black;
+    /* border-radius: 20%; */
+}
+#time
+{
+    font-size: 10vw;
+    color: black;
+    background-color: #dddddd;
+}
